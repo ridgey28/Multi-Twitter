@@ -22,8 +22,13 @@ Once you have copied the files to your server I suggest that you test the instal
 
 <h2>Calling The Function</h2>
 <code>
-<?php include 'twitter/display-tweets.php';//Include the display-tweets file- Ensure that you have the correct path
-      display_tweets('user1', 'user2','default', 10, 20);//Function to display your tweets?>
+<?php 
+//Include the display-tweets file- Ensure that you have the correct path
+    include 'twitter/display-tweets.php';
+
+//Function to display your tweets
+    display_tweets('user1', 'user2','default', 10, 20);
+?>
 </code>
 
 Further options and information are available on my blog
