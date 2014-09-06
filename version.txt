@@ -1,0 +1,23 @@
+******************Version 1.2 Multiple Twitter Users*******************
+
+Version 1.2 October 30th 2013
+Rewritten parts and grouped into smaller functions
+Added separate keys.php file to add your keys.
+Change options for retweets and replies in keys file
+Add your own time in minutes
+If the twitter API is down it will not cache the data and will continue to use the previous JSON file. 
+
+
+Version 1.1 August 13th 2013
+Updated tmhOAuth and cacert.pem.  
+Tweaked display-tweets.php
+
+
+Version 1.0
+Released March 15th 2013
+
+Any Problems??
+
+Email me tracy@worldoweb.co.uk
+Twitter:  ridgey28 or worldoweb
+Facebook: ridgey28

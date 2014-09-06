@@ -1,0 +1,35 @@
+body {
+	background-color: #333;
+}
+/*Styles the Unordered list*/
+#tweeter {
+	width: 40%;
+	list-style:none;
+}
+
+/*Styles each individual tweet*/
+.tweet {
+	background-color: #BECFDF;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: inset 4px 2px 3px #B6B5E6;
+	margin: 2%;
+	padding: 8% 5%;
+	border: solid 4px #ECEBED;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+}
+.tweet a
+{
+	color: #EF7619;
+	text-decoration: none;
+}
+.tweet a:hover
+{
+	text-decoration: underline;
+}
+.tweet strong {
+	color: #FCFCFC;
+	font-size: 0.9em;
+	padding: 2% 0 0 1%;
+	display: block;
+	font-variant: small-caps;
+}
