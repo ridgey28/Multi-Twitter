@@ -21,15 +21,13 @@ cacert.pem enables you to access the API using SSL. You can also download a copy
 Once you have copied the files to your server I suggest that you test the installation before deploying it on your live website. Open up keys.php in the twitter/includes folder and add your consumer key, consumer secret, user token and user secret. Save and close. You can also change whether you want to include retweets and/or exclude replies from your feed by changing the respective values to either True or False. Please note replies and retweets will count towards the maximum number you request, unfortunately I cannot change it due to the Twitter API. The only suggestion is to set max_tweets to a higher amount when calling the display_tweets function. 
 
 <h2>Calling The Function</h2>
-<code>
-<?php 
-//Include the display-tweets file- Ensure that you have the correct path
-    include 'twitter/display-tweets.php';
+```php
+    //Include the display-tweets file- Ensure that you have the correct path
+        include 'twitter/display-tweets.php';
 
-//Function to display your tweets
+    //Function to display your tweets
     display_tweets('user1', 'user2','default', 10, 20);
-?>
-</code>
+```
 
 Further options and information are available on my blog
 http://www.worldoweb.co.uk/2013/multiple-users-access-twitter-1-1-api-with-oauth-script
